@@ -317,6 +317,10 @@ public class CdcAcmSerialDriver implements UsbSerialDriver {
                         UsbId.ARDUINO_LEONARDO,
                         UsbId.ARDUINO_MICRO,
                 });
+        supportedDevices.put(UsbId.VENDOR_ARDUINO_MEGA_ADK_R3D,
+                new int[] {
+                        UsbId.ARDUINO_MEGA_ADK_R3
+                });
         supportedDevices.put(UsbId.VENDOR_VAN_OOIJEN_TECH,
                 new int[] {
                     UsbId.VAN_OOIJEN_TECH_TEENSYDUINO_SERIAL,
